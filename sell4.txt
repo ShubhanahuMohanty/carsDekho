@@ -1,0 +1,13 @@
+<head></head>
+    <div class="cnt1 cld2" id="sm4">
+        <select class="form-select" size="8" aria-label="size 3 select example">
+            <option selected>When are you planning to sell your car?</option>
+            <option class="border my-3 p-2 text-center" value="1">Within this week</option>
+            <option class="border my-3 p-2 text-center"  value="2">By next week</option>
+            <option class="border my-3 p-2 text-center"  value="2">After two week</option>
+            <option class="border my-3 p-2 text-center"  value="3">Just checking price</option>
+            
+          </select>
+    </div>
+
+    

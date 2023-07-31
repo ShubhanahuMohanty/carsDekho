@@ -1,0 +1,18 @@
+<head></head>
+    <div class="cnt1 cld2" id="sm2">
+        <select class="form-select" size="8" aria-label="size 3 select example">
+            <option selected>Select Location</option>
+            <option class="border my-3 p-2 text-center" value="1">Delhi</option>
+            <option class="border my-3 p-2 text-center"  value="2">Maharastra</option>
+            <option class="border my-3 p-2 text-center"  value="2">Odisha</option>
+            <option class="border my-3 p-2 text-center"  value="3">Goa</option>
+            <option class="border p-2 my-3 text-center" value="1">West Bengal</option>
+            <option class="border my-3 p-2 text-center"  value="2">Tamilnadu</option>
+            <option class="border my-3 p-2 text-center"  value="3">Punjab</option>
+            <option class="border p-2 my-3 text-center" value="1">UP</option>
+            <option class="border my-3 p-2 text-center"  value="2">MP</option>
+            <option class="border my-3 p-2 text-center"  value="3">Karnataka</option>
+          </select>
+    </div>
+
+  

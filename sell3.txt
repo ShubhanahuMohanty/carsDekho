@@ -1,0 +1,18 @@
+<head></head>
+    <div class="cnt1 cld2" id="sm3">
+        <select class="form-select" size="8" aria-label="size 3 select example">
+            <option selected>Kilometers driven</option>
+            <option class="border my-3 p-2 text-center" value="1">0-10000km</option>
+            <option class="border my-3 p-2 text-center"  value="2">10000-20000km</option>
+            <option class="border my-3 p-2 text-center"  value="2">20000-30000km</option>
+            <option class="border my-3 p-2 text-center"  value="3">30000-40000km</option>
+            <option class="border p-2 my-3 text-center" value="1">40000-50000km</option>
+            <option class="border my-3 p-2 text-center"  value="2">50000-60000km</option>
+            <option class="border my-3 p-2 text-center"  value="3">60000-70000km</option>
+            <option class="border p-2 my-3 text-center" value="1">70000-80000km</option>
+            <option class="border my-3 p-2 text-center"  value="2">80000-90000km</option>
+            <option class="border my-3 p-2 text-center"  value="3">Above 90000km</option>
+          </select>
+    </div>
+
+  
