@@ -11,6 +11,9 @@ let colorBlack=document.getElementById("color-black");
 let colorWhite=document.getElementById("color-white");
 let colorBlue=document.getElementById("color-blue");
 
+let carBlue=document.getElementById('blue-car');
+let carBlack=document.getElementById('black-car');
+
 let priceAll=document.getElementById('all-price');
 let price1to5=document.getElementById('price-1to5');
 let price5to10=document.getElementById('price-5to10');
@@ -333,6 +336,18 @@ function forFord(){
 // let vehicleTata=document.getElementById('vehicle-tata');
 
 function forAllColor(){
+    carBlue.style.display="none";
+    carBlack.style.display="none";
+    if(compAll.checked==false)
+        {
+            compAll.click();
+            
+            
+        }
+        if(compAll.checked==true)
+        {
+            vehicleAll.style.display="block";         
+        }
     if(colorAll.checked==true)
     {
         if(colorBlack.checked==true)
@@ -352,6 +367,15 @@ function forAllColor(){
 function forBlack(){
     if(colorBlack.checked==true)
     {
+
+        carBlack.style.display="block";
+        carBlue.style.display="none";
+        if(compAll.checked==false)
+        {
+            compAll.click();
+            vehicleAll.style.display="none";
+            
+        }
         if(colorAll.checked==true)
         {
             colorAll.click();
@@ -386,6 +410,14 @@ function forWhite(){
 function forBlue(){
     if(colorBlue.checked==true)
     {
+        carBlue.style.display="block";
+        carBlack.style.display="none";
+        if(compAll.checked==false)
+        {
+            compAll.click();
+            vehicleAll.style.display="none";
+            
+        }
         if(colorBlack.checked==true)
         {
             colorBlack.click();
